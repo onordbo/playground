@@ -1,0 +1,26 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "homepage": "https://github.com/onordbo/sass-grunt",
+  "authors": [
+    "Øyvind Nordbø <oyvinor@gmail.com>"
+  ],
+  "description": "Playground site for side projects",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "n/a"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "latest",
+    "pure": "latest"
+  }
+}
