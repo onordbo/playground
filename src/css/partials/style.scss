@@ -1,9 +1,75 @@
+@import "global/boiler.scss";
+@import "global/colors.scss";
+@import "fonts/proxima-nova.scss";
+@import "pages/index/animation.scss";
+
+$blue: #009ACB;
+
 body {
-	background-color: #000;
+	background-color: $blue;
 }
 
-.box {
-	width: 100px;
-	height: 100px;
-	background-color: $red;
+h1 {
+	font-family: $bold;
+	font-size: 48px;
+	color: #fff;
 }
+
+h2 {
+	font-family: $italic;
+	font-size: 20px;
+	color: #fff;
+}
+
+img {
+	width: 100%;
+}
+
+.back {
+	font-family: $regular;
+	text-align: center;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.4);
+
+	&:hover {
+		text-decoration: none; 
+		color: rgba(0, 0, 0, 0.8);
+		transition: .3s;
+	}
+}
+
+.row {
+	margin-top: -30px;
+}
+
+.project {
+	margin-top: 30px;
+}
+
+.project-title {
+	color: #000;
+	font-size: 18px;
+	font-family: $regular;
+	text-align: center;
+	background-color: #fff;
+	height: 60px;
+	padding: 18px;
+}
+
+.name, img {
+	box-shadow: 0px 0px 4px 0px rgba(15,73,138,0.61);
+}
+
+.container:nth-child(1) {
+	margin-top: 80px;
+}
+
+.container:nth-child(2) {
+	margin-top: 60px;
+}
+
+.footer .container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
